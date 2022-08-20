@@ -34,5 +34,6 @@ mkibmtap -fpzxi -n orient.pzx -a orient.bas
 pzx2wav orient.pzx > orient.wav
 
 https://www.atariarchives.org/bca/Chapter04_TheOrientExpress.php
-=================================================================
+
+---------------------------------------------------------------------
 El emulador PC-BASIC puede grabar y cargar wavs
