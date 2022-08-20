@@ -24,7 +24,7 @@ And check that it will load on the 5150:
 LOAD "CAS1:" (on the 5150)
 playtzx hauntx.tzx (on the PC)
 
-==================
+=========================================
 
 mkibmtap -n orient.tzx -a orient.bas
 playtzx orient.tzx
@@ -34,5 +34,5 @@ mkibmtap -fpzxi -n orient.pzx -a orient.bas
 pzx2wav orient.pzx > orient.wav
 
 https://www.atariarchives.org/bca/Chapter04_TheOrientExpress.php
----------------------------------------------------------------------------
+=================================================================
 El emulador PC-BASIC puede grabar y cargar wavs
