@@ -10,19 +10,19 @@ If you've got a cassette-equipped 5150 or PCjr to hand, you can find a sample .T
 
 Creating the .TZX isn't quite as straightforward; I had to add a trailer block by hand to avoid load errors. The process I used (having captured the output from the 5150's MIC connector as a .WAV) was:
 
-sox haunt.wav -b 8 haunt.voc
-voc2tzx haunt.voc haunt.tzx
+sox haunt.wav -b 8 haunt.voc  
+voc2tzx haunt.voc haunt.tzx  
 Then create the 20-byte trailer block in a hex editor:
 
 11 9E 07 C1  46 6E A8 4F  00 9E 00 8B  0C 01 00 00
 01 00 00 00
 Append it to the file:
 
-copy /b haunt.tzx+trailer.bin hauntx.tzx
+copy /b haunt.tzx+trailer.bin hauntx.tzx  
 And check that it will load on the 5150:
 
-LOAD "CAS1:" (on the 5150)
-playtzx hauntx.tzx (on the PC)
+LOAD "CAS1:" (on the 5150)  
+playtzx hauntx.tzx (on the PC)  
 
 ============================================
 
@@ -35,10 +35,10 @@ pzx2wav orient.pzx > orient.wav
 
 o:
 
-mkibmtap -ftzx orient.tzx -b orient.bas
+mkibmtap -ftzx orient.tzx -b orient.bas  
 tzx2wav orient.tzx
 
-mkibmtap -ftzx orienta.tzx -a orienta.bas
+mkibmtap -ftzx orienta.tzx -a orienta.bas  
 tzx2wav orienta.tzx
 
 https://www.atariarchives.org/bca/Chapter04_TheOrientExpress.php
