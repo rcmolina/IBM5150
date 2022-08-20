@@ -1,4 +1,4 @@
-*IBM5150
+#IBM5150
 
 JohnElliott: https://forum.vcfed.org/index.php?threads/ibm-pc-cassette-interface.8765/
 
