@@ -37,9 +37,9 @@ o:
 
 mkibmtap -ftzx orient.tzx -b orient.bas
 tzx2wav orient.tzx
+
 mkibmtap -ftzx orienta.tzx -a orienta.bas
 tzx2wav orienta.tzx
-
 
 https://www.atariarchives.org/bca/Chapter04_TheOrientExpress.php
 
