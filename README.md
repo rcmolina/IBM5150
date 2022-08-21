@@ -36,10 +36,10 @@ pzx2wav orient.pzx > orient.wav
 o:
 
 mkibmtap -ftzx orient.tzx -b orient.bas  
-tzx2wav orient.tzx
+tzx2wav -f 5513 orient.tzx orient5k.wav
 
 mkibmtap -ftzx orienta.tzx -a orienta.bas  
-tzx2wav orienta.tzx
+tzx2wav -f 5513 orienta.tzx orienta5k.wav
 
 https://www.atariarchives.org/bca/Chapter04_TheOrientExpress.php
 
